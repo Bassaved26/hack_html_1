@@ -1,0 +1,94 @@
+/* HACK 1 */
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849; 
+    position: relative;
+}
+
+div{
+    display: block;
+}
+
+.container{
+    position: static;
+    width: 100%;
+    height: 300px;
+    background-image: url("/hurricane-92968_1280.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+/* HACK 2 USO DEL FLOAT */
+.section2{
+    margin: 50px;
+}
+
+.uno{
+    float: left;
+    width: 50%;
+    height: 50px;
+    background-color: #AB2849;
+    text-align: center;
+    margin: 5px;
+}
+
+.dos{
+    float: right;
+    width: 50%;
+    height: 50px;
+    background: #93B5C9;
+    text-align:center; 
+    margin: 5px 
+}
+
+.tres{
+    float: left;
+    width: 50%;
+    height: 50px;
+    background-color: #AB2849;
+    text-align: center;
+    margin: 5px;
+}
+
+.cuatro{
+    float: right;
+    width: 50%;
+    height: 50px;
+    background: #93B5C9;
+    text-align:center; 
+    margin: 5px
+}
+
+/* HACK 3 USANDO SOLAMENTE EL FLEX */
+.cinco{
+    background-color: var(--bg-wine);
+    display: flex;
+    flex-direction: row;
+    margin-top: 330px;
+}
+
+/* HACK 4 5 6*/
+#section1 .papa{
+    display: flex;
+    flex-direction:row;
+}
+
+#section1 .imagen{
+    background-image:url("/carousel-5198033_1280.jpg");
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-size:cover;
+    background-position: center center;
+}
+
+#section1 .texto{
+    flex-direction: column;
+    margin:0px 50px 0px 100px;
+    text-align: initial;
+    align-content: center;
+}
+
